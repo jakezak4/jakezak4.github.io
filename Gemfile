@@ -7,4 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
 end
 
-gem 'faraday-retry'
+gem "minimal-mistakes-jekyll"
+
