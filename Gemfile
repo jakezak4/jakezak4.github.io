@@ -1,5 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "minimal-mistakes-jekyll"
-
-gem 'faraday-retry', '~> 2.2'
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
