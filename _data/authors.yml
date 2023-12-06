@@ -1,0 +1,31 @@
+# Authors
+
+Jaszczak:
+  name        : "Jacob Jaszczak, PhD"
+  bio         : "Assistant Professor"
+  avatar      : "/assets/images/bio-photo-JSJ.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "jacob.jaszczak@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jaszczak.org"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jacobjaszczak"
+
+Join:
+  name        : "Join us!"
+  bio         : "We are currently recruiting a research technician, undergraduates, and graduate students. "
+  avatar      : "/assets/images/people.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "jacob.jaszczak@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jaszczak.org"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jacobjaszczak"
