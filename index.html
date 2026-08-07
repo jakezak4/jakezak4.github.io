@@ -253,7 +253,7 @@ live imaging, and building machines.</p>
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/assets/images/lab_fall_2024_2.jpg" alt="people" />
+            <img src="/assets/images/summer2026.jpg" alt="people" />
             
           </div>
         
@@ -402,6 +402,31 @@ live imaging, and building machines.</p>
 </div>
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const teamImage = document.querySelector(
+    'img[src$="/assets/images/summer2026.jpg"]'
+  );
+
+  if (!teamImage) return;
+
+  const originalImage = "/assets/images/summer2026.jpg";
+  const hoverImage = "/assets/images/wrastling.gif";
+
+  const preloadImage = new Image();
+  preloadImage.src = hoverImage;
+
+  teamImage.addEventListener("mouseenter", function () {
+    teamImage.src = hoverImage;
+  });
+
+  teamImage.addEventListener("mouseleave", function () {
+    teamImage.src = originalImage;
+  });
+});
+</script>
+
 
     </section>
   </article>
